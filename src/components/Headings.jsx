@@ -2,7 +2,7 @@ import React from "react";
 // test build
 const Headings = () => {
   return (
-    <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-4 mt-40 mb-16">
+    <div id="home" className="relative z-10 flex flex-col justify-center items-center h-full text-center px-4 mt-40 mb-16">
       <h1 className="text-5xl font-semibold mb-6 text-[#4B3621]">
         Welcome to Our Export Website
       </h1>

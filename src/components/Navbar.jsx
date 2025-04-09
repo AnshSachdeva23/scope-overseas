@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="absolute top-0 left-0 w-full z-20 bg-[#4B3621]/80 backdrop-blur-md border-b border-white/20">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3">
+        <a href="#home" className="flex items-center space-x-3">
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             Scope Overseas
           </span>
@@ -39,7 +39,7 @@ const Navbar = () => {
               (item, idx) => (
                 <li key={idx}>
                   <a
-                    href="#"
+                    href="#home"
                     className="block py-2 px-3 text-white rounded hover:bg-white/10 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0"
                   >
                     {item}
